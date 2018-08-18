@@ -13,6 +13,7 @@
 		AC2EEF5C212885D700B5D5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2EEF5B212885D700B5D5BF /* Assets.xcassets */; };
 		AC2EEF5F212885D700B5D5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2EEF5D212885D700B5D5BF /* LaunchScreen.storyboard */; };
 		AC2EEF62212885D700B5D5BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2EEF61212885D700B5D5BF /* main.m */; };
+		AC2EEF6A2128873D00B5D5BF /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2EEF692128873D00B5D5BF /* Pessoa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AC2EEF5E212885D700B5D5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC2EEF60212885D700B5D5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC2EEF61212885D700B5D5BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC2EEF682128873C00B5D5BF /* Pessoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
+		AC2EEF692128873D00B5D5BF /* Pessoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				AC2EEF55212885CD00B5D5BF /* ViewController.h */,
 				AC2EEF56212885CD00B5D5BF /* ViewController.m */,
 				AC2EEF58212885CD00B5D5BF /* Main.storyboard */,
+				AC2EEF682128873C00B5D5BF /* Pessoa.h */,
+				AC2EEF692128873D00B5D5BF /* Pessoa.m */,
 				AC2EEF5B212885D700B5D5BF /* Assets.xcassets */,
 				AC2EEF5D212885D700B5D5BF /* LaunchScreen.storyboard */,
 				AC2EEF60212885D700B5D5BF /* Info.plist */,
@@ -143,6 +148,7 @@
 			files = (
 				AC2EEF57212885CD00B5D5BF /* ViewController.m in Sources */,
 				AC2EEF62212885D700B5D5BF /* main.m in Sources */,
+				AC2EEF6A2128873D00B5D5BF /* Pessoa.m in Sources */,
 				AC2EEF54212885CD00B5D5BF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

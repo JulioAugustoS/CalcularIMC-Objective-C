@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Pessoa.h"
 
 @interface ViewController ()
 
@@ -23,6 +24,20 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (IBAction)calcular:(id)sender {
+    
+    Pessoa *p = [[Pessoa alloc]init];
+    
+    p.peso = self.txtPeso.text.floatValue;
+    p.altura = self.txtAltura.text.floatValue;
+    p.nome = self.txtAtleta.text;
+
+    [p calcularIMC];
+    self.txtImc.text = [NSString stringWithFormat:@"%0.2f",[p calcularIMC]];
+    
 }
 
 
